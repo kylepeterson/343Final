@@ -1,3 +1,4 @@
+
 /* Styles for the web page */
 
 /* The entire web page */
@@ -80,16 +81,14 @@ section {
 
 }
 
+/* Map Page */
+
 .detail-area, .map-area, .row {
         height: 99%;
 }
 
 .detail-area, .map-area, .nav-bar {
         border: 5px solid blue;
-}
-
-.nav-bar {
-        margin-bottom: .05%;
 }
 
 .map-area {
