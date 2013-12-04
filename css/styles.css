@@ -87,7 +87,7 @@ section {
         height: 99%;
 }
 
-.detail-area, .map-area, .nav-bar {
+.detail-area, .map-area {
         border: 5px solid blue;
 }
 
