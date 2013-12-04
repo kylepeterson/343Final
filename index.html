@@ -5,9 +5,66 @@
 	<head>
 		<title>Home Page</title>
 		<link rel="stylesheet" href="lib/bootstrap-3.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
+		<div class="container">
+			<header>
+				<nav>
+					<ul>
+						<li class="pull-left"><a href="index.html">Home</a></li>
+						<li class="pull-left"><a href="map.html">Map</a></li>
+						<li class="pull-left"><a href="review.html">Submit</a></li>
+						<li class="pull-right">Name</li>
+					</ul>
+				</nav>
+			</header>
 
+			<section>
+				<div id="picture-carousel" class="carousel slide" data-ride="carousel">
+				  	<!-- Indicators -->
+				 	<ol class="carousel-indicators">
+				    	<li data-target="#picture-carousel" data-slide-to="0" class="active"></li>
+				    	<li data-target="#picture-carousel" data-slide-to="1"></li>
+				    	<li data-target="#picture-carousel" data-slide-to="2"></li>
+				    	<li data-target="#picture-carousel" data-slide-to="3"></li>
+				  	</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+					    	<img src="img/apt1.jpg" alt="a lovely apartment">
+						</div>
+						<div class="item">
+					    	<img src="img/apt2.jpg" alt="a nice apartment">
+						</div>
+						<div class="item">
+					    	<img src="img/apt3.jpg" alt="a cool apartment">
+						</div>
+						<div class="item">
+					    	<img src="img/apt4.jpg" alt="a modern apartment">
+						</div>
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#picture-carousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#picture-carousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+					<div class="search-wrapper">
+						<p>Site Name</p>
+						<form class="search" method="" action="">
+							<div class="search-bar">
+								<input type="search" name="search-query" placeholder="Enter an address...">
+								<button type="submit">Search</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</div>
 		<!-- BootStrap Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="lib/bootstrap-3.0.0/js/bootstrap.min.js"></script>

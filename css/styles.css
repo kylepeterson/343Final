@@ -1,1 +1,108 @@
-/** Styles for the web page **/
+/* Styles for the web page */
+
+/* The entire web page */
+
+.container {
+	max-width: 819px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 0;
+}	
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+/* The header section */
+
+nav ul {
+	padding: 0;
+}
+
+nav li {
+	list-style-type: none;
+	width: 20%;
+	text-align: center;
+	font-size: 3em;
+	display: inline-block;
+}
+
+nav a {
+	display: block;
+}
+
+nav a:hover {
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+
+/* The main page content */
+
+section {
+	display: inline-block;
+}
+
+.search-wrapper {
+	width: 50%;
+	color: white;
+	position: absolute;
+	background: rgba(0, 0, 0, .5);
+	top: 20%;
+	left: 25%;
+	z-index: 10;
+	padding: 2em;
+}
+
+.search-wrapper p {
+	font-size: 3em;
+
+	opacity: 1;
+}
+
+.search input {
+	width: 100%;
+	height: 2em;
+	padding-right: 20%;
+}
+
+.search button {
+	width: 20%;
+	height: 2em;
+	z-index: 15;
+	float: right;
+	position: relative;
+	top: -2em;
+
+}
+
+.detail-area, .map-area, .row {
+        height: 99%;
+}
+
+.detail-area, .map-area, .nav-bar {
+        border: 5px solid blue;
+}
+
+.nav-bar {
+        margin-bottom: .05%;
+}
+
+.map-area {
+        float: left;
+        width: 59%;
+}
+
+.detail-area {
+        float: right;
+        margin-left: 1%;
+        width: 40%;
+}
+
+.map-container {
+        height: 98%;
+}
