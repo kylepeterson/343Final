@@ -6,7 +6,15 @@ var apartmentTest = {
 			city:'Seattle',
 			zip:'98105',
 			state:'WA',
-			reviews: []
+			avg:'6'
+			reviews: [
+				{
+					name:'Mary Jones',
+					duration:'12',
+					score:'6',
+					text:'I enjoyed staying in this apartment but the heating broke many times and it took very long to get it repaired'
+				}
+			]
 		}	
 	]
 }
