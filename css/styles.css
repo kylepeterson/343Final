@@ -3,9 +3,13 @@
 
 /* The entire web page */
 
+body {
+	background-image: url(../img/brushed.png);
+}
+
 .container {
 	max-width: 819px;
-	margin-top: 50px;
+	margin-top: 25px;
 	margin-bottom: 50px;
 	padding: 0;
 }	
@@ -93,6 +97,7 @@ section {
 
 .map-area {
 	float: left;
+	padding-top: 15px;
 	width: 59%;
 }
 
@@ -103,5 +108,22 @@ section {
 }
 
 .map-container {
-	height: 98%;
+	height: 80%;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.redo-search-wrapper {
+	height: 20%;
+}
+
+.apartment-information, .review-list {
+	height: 50%;
+}
+
+.review-list {
+	border-top: 5px solid blue;
 }
