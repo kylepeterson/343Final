@@ -4,7 +4,7 @@
 /* The entire web page */
 
 body {
-	background-image: url(../img/brushed.png);
+	background-image: url(../img/noisy_net.png);
 }
 
 .container {
@@ -23,6 +23,10 @@ body {
 }
 
 /* The header section */
+
+header {
+	overflow: hidden;
+}
 
 nav ul {
 	padding: 0;
@@ -87,12 +91,13 @@ section {
 
 /* Map Page */
 
-.detail-area, .map-area, .row, .container, body, html {
+body, .container, .detail-area, html, .information-container, .map-area, .row {
 	height: 95%;
 }
 
 .detail-area, .map-area {
-	border: 5px solid blue;
+	background-image: url(../img/brushed.png);
+	border: 5px solid #90BEE4;
 }
 
 .map-area {
