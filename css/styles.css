@@ -132,3 +132,7 @@ body, .container, .detail-area, html, .information-container, .map-area, .row {
 .review-list {
 	border-top: 5px solid blue;
 }
+
+.template, .rank-name {
+	display: none;
+}

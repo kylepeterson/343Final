@@ -7,7 +7,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'6',
+			avg: 6,
 			reviews: [
 				{
 					name:'Mary Jones',
@@ -24,7 +24,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -34,7 +34,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -44,7 +44,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -54,7 +54,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -64,7 +64,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -74,7 +74,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -84,7 +84,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -94,7 +94,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -104,7 +104,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -114,7 +114,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -124,7 +124,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -134,7 +134,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -144,7 +144,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -154,7 +154,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -164,7 +164,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -174,7 +174,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -184,7 +184,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -194,7 +194,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -204,7 +204,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -214,7 +214,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -224,7 +224,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -234,7 +234,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -244,7 +244,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -254,7 +254,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -264,7 +264,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -274,7 +274,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -284,7 +284,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -294,7 +294,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -304,7 +304,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -314,7 +314,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -324,7 +324,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -334,7 +334,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -344,7 +344,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -354,7 +354,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -364,7 +364,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -374,7 +374,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -384,7 +384,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -394,7 +394,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -404,7 +404,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		{
@@ -414,7 +414,7 @@ var residences = {
 			zip:'98105',
 			state:'WA',
 			type:'apartment',
-			avg:'',
+			avg: 0,
 			reviews: []
 		},
 		
