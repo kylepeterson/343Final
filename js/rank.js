@@ -19,21 +19,20 @@ function sortObjArray(objArray, propName) {
 }
 
 $(function(){
-    sortObjArray(residences.entries, 'avg');
-    render(residences.entries);
+    $.getJSON(url, function(apartmentData) {
+        sortObjArray(apartmentData, "avg");
+
+        var template = $('.rank-name');
+        var rankList = $('.rank-list');
+
+        rankList.empty();
+
+        for (var i = 0; i < 5; i++) {
+            var clone = template.clone();
+            clone.html('<a href="#">' + apartmentData[i].name + '</a> - ' + apartmentData[i].avg);
+            clone.removeClass('rank-name');
+            clone.addClass('rank');
+            rankList.append(clone);
+        }
+    });
 });
-
-function render(entries) {
-    var template = $('.rank-name');
-    var rankList = $('.rank-list');
-
-    rankList.empty();
-
-    for (var i = 0; i < 5; i++) {
-        var clone = template.clone();
-        clone.html(entries[i].name);
-
-        clone.removeClass('rank-name');
-        rankList.append(clone);
-    }
-}
