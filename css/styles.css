@@ -30,6 +30,13 @@ a {
 		max-width: 819px;
 	}
 }
+
+@media (min-width: 1400px) {
+  	.container {
+		max-width: 1400px; 
+  	}
+}
+
 .container {
 	margin-top: 25px;
 	margin-bottom: 50px;
@@ -210,17 +217,29 @@ body, .container, .detail-area, html, .information-container, .map-area, .row {
 	}
 
 	.detail-area {
+		width: 40%;
 		display: inline-block;
 	}
 }
+
+@media (min-width: 1400px) {
+  	.map-area {
+		width: 70%;
+	}
+
+	.detail-area {
+		width: 29%;
+	}
+}
+
 .detail-area {
-	float: right;
 	margin-left: 1%;
-	width: 40%;
+	float: right;
 }
 
 .map-container {
 	height: 100%;
+
 
 }
 
