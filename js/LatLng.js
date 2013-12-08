@@ -2,7 +2,8 @@ var url = "js/apartments.json";
 var apartmentData = {};
 
 $(function() {
-	giveCoordinates();
+	//giveCoordinates();
+	giveIndex();
 });
 
 function giveCoordinates() {
@@ -24,6 +25,15 @@ function giveCoordinates() {
 				postData(apartmentData);
 			}
 		}, 2000);
+	});
+}
+
+function giveIndex() {
+	$.getJSON(url, function(apartmentData) {
+		for (var i = 0; i < apartmentData.length; i++) {
+			apartmentData[i].index = i;
+		}
+		postData(apartmentData);
 	});
 }
 
