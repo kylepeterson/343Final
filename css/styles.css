@@ -189,6 +189,15 @@ body, .container, .detail-area, html, .information-container, .map-area, .row {
 	height: 95%;
 }
 
+.review-list h2 {
+	margin-top: 0px;
+	text-align: center;
+}
+
+.review-list li {
+	margin-top: 5px;
+}
+
 .detail-area, .map-area {
 	background-image: url(../img/brushed.png);
 	border: 5px solid #000;
@@ -232,6 +241,8 @@ body, .container, .detail-area, html, .information-container, .map-area, .row {
 
 .detail-area {
 	margin-left: 1%;
+	padding: 0px;
+	width: 40%;
 	float: right;
 }
 
@@ -250,7 +261,7 @@ body, .container, .detail-area, html, .information-container, .map-area, .row {
 	width: 75%;
 	height: 4em;
 	bottom: 5%;
-	right: 5%;
+	right: 12%;
 	color: white;
 	position: absolute;
 	background: rgba(0, 0, 0, .8);
@@ -259,13 +270,20 @@ body, .container, .detail-area, html, .information-container, .map-area, .row {
 }
 
 .apartment-information, .review-list {
-	height: 50%;
 	padding: 1em;
+}
 
+.apartment-information {
+	height: 70%;
+}
+
+.review-list {
+	height: 30%;
 }
 
 .review-list {
 	border-top: 5px solid #3D72A4;
+
 }
 .template, .rank-name {
 	display: none;
