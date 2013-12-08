@@ -244,8 +244,6 @@ body, .container, .detail-area, html, .information-container, .map-area, .row {
 .detail-area {
 	margin-left: 1%;
 	padding: 0px;
-	width: 40%;
-	float: right;
 }
 
 .map-container {
