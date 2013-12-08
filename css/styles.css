@@ -194,6 +194,10 @@ body, .container, .detail-area, html, .information-container, .map-area, .row {
 	text-align: center;
 }
 
+h1 {
+	font-size: 25px;
+}
+
 .review-list li {
 	margin-top: 5px;
 }
