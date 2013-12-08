@@ -317,3 +317,13 @@ h1 {
 .template, .rank-name {
 	display: none;
 }
+
+/* Submit a review page */
+
+.stay-form {
+	width: 8em;
+}
+
+.rating-form {
+	width: 8em;
+}
