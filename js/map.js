@@ -22,7 +22,7 @@ function addMarkers() {
 			if (!apartment.avg) {
 				apartment.avg = 'unrated';
 			}
-			var iwContent = '<h1>' + apartment.name + '</h1>' + '<ul><li>' + apartment.address + '</li><li>score: ' + apartment.avg + '</li></ul>';
+			var iwContent = '<div id="info-window"><h1>' + apartment.name + '</h1>' + '<ul><li>' + apartment.address + '</li><li>score: ' + apartment.avg + '</li></ul></div>';
 			if (apartment.address) {
 				var marker = new google.maps.Marker({
 				map: map,
@@ -51,6 +51,7 @@ function registerInfoWindow(marker, infoWindow) {
 		infoWindow.open(map,marker);
 		map.panTo(this.getPosition());
 	});
+
 }
 
 function panWindow(apartment) {
