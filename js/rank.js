@@ -36,12 +36,4 @@ function render(entries) {
         clone.removeClass('rank-name');
         rankList.append(clone);
     }
-
- /*   $.each(entries, function(){
-        var clone = template.clone();
-        clone.html(this.name);
-
-        clone.removeClass('rank-name');
-        rankList.append(clone);
-    });*/
 }
