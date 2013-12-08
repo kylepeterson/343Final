@@ -49,5 +49,6 @@ function registerInfoWindow(map, marker, infoWindow) {
 		}
 		apartmentData.iw = infoWindow;
 		infoWindow.open(map,marker);
+		map.setCenter(this.getPosition());
 	});
 }
