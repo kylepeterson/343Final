@@ -1,5 +1,5 @@
-
 /* Styles for the web page */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
 /* The entire web page */
 
@@ -43,6 +43,10 @@ a {
 	padding: 0;
 }	
 
+.site-title {
+	font-family: 'Ubuntu' sans-serif;
+	text-align: center;
+}
 
 .pull-left {
 	float: left;
