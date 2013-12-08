@@ -231,7 +231,7 @@ h1 {
 	margin-top: 5px;
 }
 
-.detail-area, .map-area {
+.detail-area, .map-area, .review-container {
 	background-image: url(../img/brushed.png);
 	border: 5px solid #000;
 }
@@ -343,8 +343,6 @@ h1 {
 	color: #3D72A4;
 }
 
-
-
 .review-text {
 	clear: both;
 }
@@ -366,6 +364,10 @@ h1 {
 	float: right;
 	margin-right: 15px;
 	margin-top: 10px;
+}
+
+.review-info h2 {
+	margin-top: 0px;
 }
 
 .review-container {
