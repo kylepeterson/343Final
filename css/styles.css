@@ -318,6 +318,31 @@ h1 {
 	display: none;
 }
 
+.apartment-img {
+	width: 40%;
+	float: left;
+	margin-right: 1em;
+}
+
+.reviews {
+	clear: both;
+	margin-top: 2em;
+}
+
+.reviewer-name, .review-rating {
+	display: inline;
+	font-weight: bold;
+}
+
+.review-rating {
+	color: #3D72A4;
+}
+
+
+
+.review-text {
+	clear: both;
+}
 /* Submit a review page */
 
 .stay-form {
