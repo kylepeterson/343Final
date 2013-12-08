@@ -303,6 +303,7 @@ h1 {
 .apartment-information {
 	height: 70%;
 	overflow: auto;
+	padding-top: 0px;
 }
 
 .review-list {
@@ -345,10 +346,25 @@ h1 {
 }
 /* Submit a review page */
 
+.form-group {
+	overflow: hidden;
+}
+
 .stay-form {
 	width: 8em;
 }
 
 .rating-form {
 	width: 8em;
+}
+
+.submit-review {
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.review-container {
+	border: 5px solid black;
+	padding: 10px;
 }
