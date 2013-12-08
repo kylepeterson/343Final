@@ -80,6 +80,12 @@ nav ul {
 	}
 }
 
+@media (min-width: 1400px) {
+	nav li {
+		font-size: 4em;
+	}
+}
+
 nav li {
 		list-style-type: none;
 		text-align: center;
@@ -160,8 +166,27 @@ nav a:hover {
 
 	.search-wrapper p {
 		font-size: 3em;
-	}	
+	}
+	.carousel-control {
+		display: inline-block;
+	}
 
+	.carousel-indicators {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 1400px) {
+	.search-wrapper p {
+		font-size: 4em;
+	}
+	.carousel-control {
+		display: inline-block;
+	}
+
+	.carousel-indicators {
+		display: inline-block;
+	}
 }
 
 .search input {
@@ -273,10 +298,12 @@ body, .container, .detail-area, html, .information-container, .map-area, .row {
 
 .apartment-information {
 	height: 70%;
+	overflow: auto;
 }
 
 .review-list {
 	height: 30%;
+	overflow: auto;
 }
 
 .review-list {
