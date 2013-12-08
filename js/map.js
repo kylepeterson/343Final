@@ -19,6 +19,10 @@ function addMarkers(map) {
 	$.getJSON(url, function(apartmentData) {
 		for (var i = 0; i < apartmentData.length; i++) {
 			var apartment = apartmentData[i];
+			if (!apartment.avg) {
+				apartment.avg = 'unrated';
+			}
+			var iwContent = '<h1>' + apartment.name + '</h1>' + '<ul><li>' + apartment.address + '</li><li>score: ' + apartment.avg + '</li></ul>';
 			if (apartment.address) {
 				var marker = new google.maps.Marker({
 				map: map,
@@ -27,8 +31,11 @@ function addMarkers(map) {
 				});
 			}
 			var infoWindow = new google.maps.InfoWindow({
-				content: apartment.name
+				content: iwContent
 			});
+			//var pano = new google.maps.StreetViewPanorama(infoWindow, function(){
+				//position: new google.maps.LatLng(apartment.lat, apartment.lng)
+			//});
 			registerInfoWindow(map, marker, infoWindow);
 		}
 	});

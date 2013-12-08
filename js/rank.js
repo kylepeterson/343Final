@@ -31,7 +31,7 @@ function render(entries) {
 
     for (var i = 0; i < 5; i++) {
         var clone = template.clone();
-        clone.html(entries[i].name);
+        clone.html('<a href="#">' + entries[i].name + '</a> - ' + entries[i].avg);
 
         clone.removeClass('rank-name');
         rankList.append(clone);
