@@ -379,7 +379,7 @@ h1 {
 }
 
 .review-container {
-	border: 5px solid black;
+	box-shadow: 2px 2px 50px;
 	padding: 10px;
 }
 
