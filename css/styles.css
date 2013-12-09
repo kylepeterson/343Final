@@ -45,7 +45,6 @@ a {
 
 .site-title {
 	font-family: 'Ubuntu' sans-serif;
-	text-align: center;
 }
 
 .pull-left {
@@ -209,15 +208,18 @@ nav a:hover {
 
 }
 
-#pics, .review-container {
+#pics, .review-container, .map-page-contents {
 	box-shadow: 2px 2px 20px;
 }
 /* Map Page */
 
-body, .container, .detail-area, html, .information-container, .map-area, .row {
+body, .container, html, .information-container,  .row {
 	height: 95%;
 }
 
+.detail-area, .map-area {
+	height: 100%;
+}
 .review-list h2 {
 	margin-top: 0px;
 	text-align: center;
@@ -252,7 +254,7 @@ h1 {
 
 @media (min-width: 819px) {
 	.map-area {
-		width: 59%;
+		width: 60%;
 	}
 
 	.detail-area {
