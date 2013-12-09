@@ -37,6 +37,7 @@ function addMarkers() {
 				//position: new google.maps.LatLng(apartment.lat, apartment.lng)
 			//});
 			registerInfoWindow(marker, infoWindow);
+			google.maps.event.addListener(marker, 'click', fillDetailBox(apartment));
 		}
 	});
 }
@@ -57,4 +58,29 @@ function registerInfoWindow(marker, infoWindow) {
 function panWindow(apartment) {
 	map.panTo(new google.maps.LatLng(apartment.lat, apartment.lng));
 	map.setZoom(2);
+}
+
+function fillDetailBox(apartment) {
+	var container = $('.apartment-information');
+	container.empty();
+	var fullTemplate = $('.apartment-template').clone();
+	fullTemplate.find('.apartment-name').html(apartment.name);
+	fullTemplate.find('.address').html("Address: " + apartment.address + ", " + apartment.city + ", " + apartment.state + " " + apartment.zip);
+	fullTemplate.find('.score').html("Average Score: " + apartment.avg);
+	var reviewContainer = fullTemplate.find('.review-container');
+	var i;
+	var review;
+	for(i = 0; i < apartment.reviews.length; i++) {
+		review = $('.review-template');
+		review.find('.reviewer-name').html(apartment.reviews[i].name);
+		review.find('.duration').html("Length of Stay: " + apartment.reviews[i].duration + " Months");
+		review.find('.review-rating').html('Rating: ' + apartment.reviews[i].score);
+		review.find('.review-text').html(apartment.reviews[i].text);
+		review.removeClass('review-template');
+		reviewContainer.append(review);
+	}
+	fullTemplate.removeClass('apartment-template');
+	container.append(fullTemplate);
+
+
 }
