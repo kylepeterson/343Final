@@ -116,7 +116,7 @@ nav a:hover {
 
 .search-wrapper {
 	color: white;
-	background: rgba(0, 0, 0, 1);
+	background: rgba(30, 30, 30, .8);
 	z-index: 10;
 	padding: 2em;
 	top: 20%;
@@ -208,7 +208,7 @@ nav a:hover {
 
 }
 
-#pics, .review-container, .map-page-contents {
+#pics, .review-container,{
 	box-shadow: 2px 2px 20px;
 }
 /* Map Page */
@@ -248,18 +248,28 @@ h1 {
 	}
 
 	.detail-area {
-		display: none;
+		width: 100%;
+		clear: both;
+		box-shadow: 2px 2px 20px;
 	}
+
+	.map-page-contents {
+		box-shadow: 2px 2px 20px;
+	}
+	
 }
 
 @media (min-width: 819px) {
 	.map-area {
 		width: 60%;
+		box-shadow: none;
 	}
 
 	.detail-area {
 		width: 40%;
 		display: inline-block;
+		clear: none;
+		box-shadow: 1px -1px 20px inset;
 	}
 }
 
@@ -274,7 +284,6 @@ h1 {
 }
 
 .detail-area {
-	box-shadow: 1px -1px 20px inset;
 	padding: 0px;
 }
 
