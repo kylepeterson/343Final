@@ -36,14 +36,13 @@ function addMarkers() {
 			//var pano = new google.maps.StreetViewPanorama(infoWindow, function(){
 				//position: new google.maps.LatLng(apartment.lat, apartment.lng)
 			//});
-			registerInfoWindow(marker, infoWindow);
-			google.maps.event.addListener(marker, 'click', fillDetailBox(apartment));
+			registerInfoWindow(marker, infoWindow, apartment);
 		}
 	});
 }
 
 
-function registerInfoWindow(marker, infoWindow) {
+function registerInfoWindow(marker, infoWindow, apartment) {
 	google.maps.event.addListener(marker, 'click', function() {
 		if (apartmentData.iw) {
 			apartmentData.iw.close();
@@ -51,6 +50,7 @@ function registerInfoWindow(marker, infoWindow) {
 		apartmentData.iw = infoWindow;
 		infoWindow.open(map,marker);
 		map.panTo(this.getPosition());
+		fillDetailBox(apartment);
 	});
 
 }
