@@ -209,8 +209,8 @@ nav a:hover {
 
 }
 
-#pics {
-	box-shadow: 2px 2px 50px;
+#pics, .review-container {
+	box-shadow: 2px 2px 20px;
 }
 /* Map Page */
 
@@ -384,7 +384,6 @@ h1 {
 }
 
 .review-container {
-	box-shadow: 2px 2px 20px;
 	padding: 10px;
 }
 
