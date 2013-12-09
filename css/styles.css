@@ -363,6 +363,10 @@ h1 {
 	font-weight: bold;
 }
 
+.duration {
+	clear: both;
+}
+
 .review-rating {
 	color: #3D72A4;
 }
