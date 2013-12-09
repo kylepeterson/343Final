@@ -318,7 +318,7 @@ h1 {
 	border-top: 5px solid #3D72A4;
 
 }
-.template, .rank-name, .review-template {
+.template, .rank-name, .apartment-template, .review-template {
 	display: none;
 }
 
