@@ -29,10 +29,18 @@ $(function(){
 
         for (var i = 0; i < 5; i++) {
             var clone = template.clone();
-            clone.html('<a href="#">' + apartmentData[i].name + '</a> - ' + apartmentData[i].avg);
+            clone.html(apartmentData[i].name + ' - ' + apartmentData[i].avg);
             clone.removeClass('rank-name');
             clone.addClass('rank');
             rankList.append(clone);
+        }
+
+        var topFive = $('.rank');
+
+        for(var i = 0; i < 5; i++) {
+            topFive[i].click(function () {
+                panWindow(apartmentData[i]);
+            });
         }
     });
 });

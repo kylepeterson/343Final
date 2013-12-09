@@ -210,7 +210,7 @@ nav a:hover {
 }
 
 #pics {
-	border: 5px solid #000;
+	box-shadow: 2px 2px 50px;
 }
 /* Map Page */
 
@@ -233,7 +233,6 @@ h1 {
 
 .detail-area, .map-area, .review-container {
 	background-image: url(../img/brushed.png);
-	border: 5px solid #000;
 }
 
 .map-area {
@@ -273,7 +272,7 @@ h1 {
 }
 
 .detail-area {
-	margin-left: 1%;
+	box-shadow: 1px -1px 20px inset;
 	padding: 0px;
 }
 
@@ -295,7 +294,7 @@ h1 {
 	right: 12%;
 	color: white;
 	position: absolute;
-	background: rgba(0, 0, 0, .8);
+	background: rgba(0, 0, 0, .6);
 	z-index: 10;
 	padding: 1em;
 }
@@ -319,8 +318,17 @@ h1 {
 	border-top: 5px solid #3D72A4;
 
 }
-.template, .rank-name {
+.template, .rank-name, .review-template {
 	display: none;
+}
+
+.rank {
+	color: #0645AD;
+	cursor: pointer;
+}
+
+.rank:hover {
+	text-decoration: underline;
 }
 
 .apartment-img {
@@ -373,4 +381,8 @@ h1 {
 .review-container {
 	border: 5px solid black;
 	padding: 10px;
+}
+
+ul li {
+	list-style: none;
 }
