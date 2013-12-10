@@ -34,7 +34,7 @@
 		<!-- templates -->
 		<div class="template">
 			<ol>
-				<li class="rank-name"></li>
+				<li class="rank-name rank"></li>
 			</ol>
 		</div>
 
