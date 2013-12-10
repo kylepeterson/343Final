@@ -1,0 +1,40 @@
+<!-- Home Page -->
+
+<!--#include virtual="inc/header.html"-->
+			<section id="pics">
+				<!-- Carousel of apartment images -->
+				<div id="picture-carousel" class="carousel slide" data-ride="carousel">
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+					    	<img src="img/apt3large.jpg" alt="a lovely apartment">
+						</div>
+						<div class="item">
+					    	<img src="img/apt1large.jpg" alt="a nice apartment">
+						</div>
+						<div class="item">
+					    	<img src="img/apt2large.jpg" alt="a cool apartment">
+						</div>
+						<div class="item">
+					    	<img src="img/apt4large.jpg" alt="a modern apartment">
+						</div>
+					</div>
+
+					<!-- Search bar -->
+					<div class="search-wrapper">
+						<p class="site-title">The Dawg House</p>
+						<form class="search" method="POST" action="map.html">
+							<div class="search-bar">
+								<input type="search" name="search-query" placeholder="Enter the name of an apartment...">
+								<button type="submit">Search</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- BootStrap Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+	</body>
+</html>
