@@ -3,25 +3,19 @@
 			<div class="row map-page-contents">
 				<!-- Section containing the map -->
 				<div class="col-lg-6 map-area">
-					<div class="map-container">
-
-					</div>
+					<div class="map-container"></div>
 
 					<div class="redo-search-wrapper">
-						
-							<div class="search-bar">
-								<input type="search" name="search-query" placeholder="Find another Apartment...">
-								<button id="search-button" type="submit">Search</button>
-							</div>
-						
+						<div class="search-bar">
+							<input type="search" name="search-query" placeholder="Find another Apartment...">
+							<button id="search-button" type="submit">Search</button>
+						</div>
 					</div>
 				</div>
 
 				<!-- Section containing the details of apartments -->
 				<div class="col-lg-6 detail-area">
-					<div class="apartment-information">
-						
-					</div>
+					<div class="apartment-information"></div>
 
 					<div class="review-list">
 						<h2>Top 5 Apartments</h2>
@@ -54,10 +48,8 @@
 				<p class="score"></p>
 			</div>
 
-			<div class="review-container">
-
-			</div> <!-- Template for review, duplicate and append to .review-->
-			
+			<div class="review-container"></div> 
+			<!-- Template for review, duplicate and append to .review-->
 		</div>
 
 		<!-- hot link to jQuery 2.0.3 -->

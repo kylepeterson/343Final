@@ -23,7 +23,7 @@ function addMarkers() {
 			if (!apartment.avg) {
 				apartment.avg = 'unrated';
 			}
-			var iwContent = '<div id="info-window"><h1>' + apartment.name + '</h1>' + '<ul><li>' + apartment.address + '</li><li>score: ' + apartment.avg + '</li><li><a href="review.html?name=' + apartment.name + '">Write a Review</a></li></ul></div>';
+			var iwContent = '<div id="info-window"><h1>' + apartment.name + '</h1>' + '<ul><li>' + apartment.address + '</li><li>score: ' + apartment.avg + '</li><li><a href="review.shtml?name=' + apartment.name + '">Write a Review</a></li></ul></div>';
 			if (apartment.address) {
 				var marker = new google.maps.Marker({
 				map: map,
