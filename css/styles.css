@@ -124,7 +124,12 @@ nav a:hover {
 
 .search-wrapper p {
 	opacity: 1;
-}	
+}
+
+.search-wrapper a {
+	display: block;
+	text-align: center;
+}
 
 .search input {
 	width: 100%;
