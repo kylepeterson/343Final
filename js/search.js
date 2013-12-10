@@ -2,7 +2,14 @@
 $(function() {
 
 	$('#search-button').click(function () {
-		var result;
+		search();
+		
+	});
+
+});
+
+function search() {
+	var result;
 		var searchTerm = $('.search-bar').find('input[name="search-query"]').val();
 		if(searchTerm.length > 0) {
 			$.getJSON(url, function(apartmentData) {
@@ -15,12 +22,11 @@ $(function() {
 				}
 				if(result) {
 					panWindow(result);
+					fillDetailBox(result);
 
 				} else {
 					alert('Apartment Not Found');
 				}
 			});
 		}
-	});
-
-});
+}

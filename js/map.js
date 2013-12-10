@@ -15,6 +15,7 @@ function makeMap() {
 	addMarkers();
 }
 
+//Creates and places a marker on the map for each apartment. Registers an info window that appears above each marker when it is clicked.
 function addMarkers() {
 	$.getJSON(url, function(apartmentData) {
 		for (var i = 0; i < apartmentData.length; i++) {
@@ -33,15 +34,15 @@ function addMarkers() {
 			var infoWindow = new google.maps.InfoWindow({
 				content: iwContent
 			});
-			//var pano = new google.maps.StreetViewPanorama(infoWindow, function(){
-				//position: new google.maps.LatLng(apartment.lat, apartment.lng)
-			//});
+			
 			registerInfoWindow(marker, infoWindow, apartment);
+			apartmentData[i].marker = marker;
 		}
 	});
 }
 
-
+//Called by the addMarkers() function to register the click event on each marker.  When a marker is clicked an info window 
+//appears above it and more information about the apartment and its reviews appear in the detail window to the right of the map
 function registerInfoWindow(marker, infoWindow, apartment) {
 	google.maps.event.addListener(marker, 'click', function() {
 		if (apartmentData.iw) {
@@ -52,14 +53,15 @@ function registerInfoWindow(marker, infoWindow, apartment) {
 		map.panTo(this.getPosition());
 		fillDetailBox(apartment);
 	});
-
 }
 
+//Centers the map on the corrdinates provided from the parameter "apartment"
 function panWindow(apartment) {
 	map.panTo(new google.maps.LatLng(apartment.lat, apartment.lng));
 	map.setZoom(2);
 }
 
+//Fills the detail box on the right of the map with the selected apartments information and reviews.
 function fillDetailBox(apartment) {
 	var container = $('.apartment-information');
 	container.empty();
