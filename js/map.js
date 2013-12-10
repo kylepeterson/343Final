@@ -84,7 +84,7 @@ function fillDetailBox(apartment) {
 		review = $('.review-template').clone();
 		review.find('.reviewer-name').html(apartment.reviews[i].name);
 		review.find('.duration').html("Length of Stay: " + apartment.reviews[i].duration + " Months");
-		review.find('.review-rating').html('Rating: ' + apartment.reviews[i].score);
+		review.find('.review-rating').html('Rating: ' + apartment.reviews[i].rating);
 		review.find('.review-text').html(apartment.reviews[i].text);
 		review.removeClass('review-template');
 		reviewContainer.append(review);
