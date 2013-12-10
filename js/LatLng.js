@@ -1,3 +1,6 @@
+//This file is a test script, and should not be considering in grading our project.
+//This file is here specifically for archival purposes, and should, under no circumstances, ever be run without the explicit permission of William May.
+
 var url = "js/apartments.json";
 var apartmentData = {};
 

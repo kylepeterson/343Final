@@ -408,3 +408,10 @@ h1 {
 ul li {
 	list-style: none;
 }
+
+/* Review submit response pages */
+
+.message {
+	padding: 2em;
+	font-size: 4em;
+}
