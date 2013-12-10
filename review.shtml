@@ -37,7 +37,6 @@
 							</div>
 						</div>
 						<button type="submit" class="btn btn-primary submit-review">Submit Review</button>
-						<!--<input type="submit" value="Submit Review">-->
 					</div>
 				</form>
 			</div>
