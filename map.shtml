@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- Map page for the website. Contains a Google Map and an information section -->
 <!--#include virtual="inc/header.html"-->
 			<div class="row map-page-contents">
 				<!-- Section containing the map -->

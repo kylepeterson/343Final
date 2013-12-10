@@ -1,5 +1,4 @@
 <!-- Home Page -->
-
 <!--#include virtual="inc/header.html"-->
 			<section id="pics">
 				<!-- Carousel of apartment images -->
