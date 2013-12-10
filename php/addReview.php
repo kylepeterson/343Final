@@ -18,7 +18,7 @@
 			foreach($reviews as $review) {
 				array_push($scores, $review -> rating);
 			}
-			$avg = (array_sum($scores) + $_POST['rating']) / count($scores);
+			$avg = round((array_sum($scores) + $_POST['rating']) / count($scores), 1);
 			$apartmentData[$apt -> index] -> avg = $avg; //assigning the average score to the JSON object.
 			
 			$json = json_encode($apartmentData); //The version of php on our hosting does NOT support JSON_PRETTY_PRINT, so it is encoded on one line.
