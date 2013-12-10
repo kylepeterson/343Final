@@ -4,7 +4,6 @@
 /* The entire web page */
 
 body {
-	/*background-image: url(../img/noisy_net.png);*/
 	background-color: #FFF;
 	color: #000;
 
@@ -44,7 +43,7 @@ a {
 }	
 
 .site-title, nav {
-	font-family: 'Ubuntu' 'Helvetica', sans-serif;
+	font-family: 'Ubuntu', 'Helvetica', sans-serif;
 }
 
 .pull-left {
