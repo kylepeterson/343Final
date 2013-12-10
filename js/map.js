@@ -1,18 +1,23 @@
+//This is the main JS file for creating and populating the map.
+//Map and marker functions by William May, filldetail() function by Jake Grossman.
+
 var url = "js/apartments.json";
 var apartmentData = {};
 var map;
 
+//Document ready function, renders and populates tha map.
 $(function() {
 	makeMap();
 });
 
+//This function creates the Google map featured on the page.
 function makeMap() {
 		map = new google.maps.Map($('.map-container')[0], {
 		center: new google.maps.LatLng(47.662757, -122.314059),
 		zoom: 15,
 		minZoom: 15
 	});
-	addMarkers();
+	addMarkers(); //Add markers to the map of apartment locations.
 }
 
 //Creates and places a marker on the map for each apartment. Registers an info window that appears above each marker when it is clicked.
@@ -24,17 +29,17 @@ function addMarkers() {
 				apartment.avg = 'unrated';
 			}
 			var iwContent = '<div id="info-window"><h1>' + apartment.name + '</h1>' + '<ul><li>' + apartment.address + '</li><li>score: ' + apartment.avg + '</li><li><a href="review.shtml?name=' + apartment.name + '">Write a Review</a></li></ul></div>';
-			if (apartment.address) {
+			if (apartment.address) { //Insures that the apartment has a location on the map
 				var marker = new google.maps.Marker({
 				map: map,
 				position: new google.maps.LatLng(apartment.lat, apartment.lng),
 				title: apartment.name
 				});
 			}
-			var infoWindow = new google.maps.InfoWindow({
+			var infoWindow = new google.maps.InfoWindow({ //Creates an Info Window for each marker.
 				content: iwContent
 			});
-			
+			//Calls function to register the Info Window.
 			registerInfoWindow(marker, infoWindow, apartment);
 			apartmentData[i].marker = marker;
 		}
