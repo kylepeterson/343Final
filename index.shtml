@@ -22,7 +22,9 @@
 					<!-- Search bar -->
 					<div class="search-wrapper">
 						<p class="site-title">The Dawg House</p>
-						<button type="submit">View Apartments</button>
+						<a href="map.shtml">
+							<button class="to-map btn btn-default" type="submit">View Apartments</button>
+						</a>
 					</div>
 				</div>
 			</section>
