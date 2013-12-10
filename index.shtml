@@ -22,12 +22,7 @@
 					<!-- Search bar -->
 					<div class="search-wrapper">
 						<p class="site-title">The Dawg House</p>
-						<form class="search" method="POST" action="map.shtml">
-							<div class="search-bar">
-								<input type="search" name="search-query" placeholder="Enter the name of an apartment...">
-								<button type="submit">Search</button>
-							</div>
-						</form>
+						<button type="submit">View Apartments</button>
 					</div>
 				</div>
 			</section>
