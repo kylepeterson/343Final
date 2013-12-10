@@ -1,4 +1,4 @@
-
+//Rudimentary Search Function on Map page.  By Jacob Grossman
 $(function() {
 
 	$('#search-button').click(function () {
