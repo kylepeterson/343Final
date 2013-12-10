@@ -43,8 +43,8 @@ a {
 	padding: 0;
 }	
 
-.site-title {
-	font-family: 'Ubuntu' sans-serif;
+.site-title, nav {
+	font-family: 'Ubuntu' 'Helvetica', sans-serif;
 }
 
 .pull-left {
