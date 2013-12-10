@@ -68,15 +68,18 @@ function panWindow(apartment) {
 
 //Fills the detail box on the right of the map with the selected apartments information and reviews.
 function fillDetailBox(apartment) {
+	//grabs the apartment information container
 	var container = $('.apartment-information');
 	container.empty();
 	var fullTemplate = $('.apartment-template').clone();
+	//finds the classes and sets the elements
 	fullTemplate.find('.apartment-name').html(apartment.name);
 	fullTemplate.find('.address').html("Address: " + apartment.address + ", " + apartment.city + ", " + apartment.state + " " + apartment.zip);
 	fullTemplate.find('.score').html("Average Score: " + apartment.avg);
 	var reviewContainer = fullTemplate.find('.review-container');
 	var i;
 	var review;
+	// goes through the list of apartment reviews
 	for(i = 0; i < apartment.reviews.length; i++) {
 		review = $('.review-template').clone();
 		review.find('.reviewer-name').html(apartment.reviews[i].name);
